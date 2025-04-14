@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { InstantMeeting } from "@/components/instant-meeting"
 import { ScheduledMeeting } from "@/components/scheduled-meeting"
 import { ThemeToggle } from "@/components/theme-toggle"
-
+import { AuthButton } from "@/components/auth-button"
 export default function MeetingPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted transition-colors duration-300 py-8">
@@ -14,6 +14,7 @@ export default function MeetingPage() {
             Meeting Scheduler
           </h1>
           <ThemeToggle />
+          <AuthButton />
         </header>
 
         <div className="space-y-8">

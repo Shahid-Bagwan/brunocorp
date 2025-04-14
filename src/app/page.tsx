@@ -24,7 +24,7 @@ export default function HomePage() {
           </h1>
           <div className="flex items-center gap-4">
             <ThemeToggle />
-            <AuthButton isLoggedIn={isLoggedIn} onLoginChange={setIsLoggedIn} />
+            <AuthButton  />
           </div>
         </header>
 
@@ -35,7 +35,6 @@ export default function HomePage() {
           <p className="text-muted-foreground mb-6">
             Sign in with your Google account to access the meeting scheduler
           </p>
-          <AuthButton isLoggedIn={isLoggedIn} onLoginChange={setIsLoggedIn} />
         </div>
       </div>
     </div>
